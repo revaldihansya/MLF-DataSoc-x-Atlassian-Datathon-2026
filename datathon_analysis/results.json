@@ -1,0 +1,787 @@
+{
+  "counts": {
+    "customers": 8320,
+    "tickets": 8469,
+    "usage_rows": 42210,
+    "customer_products": 8442,
+    "rated": 2769,
+    "low_csat": 1102,
+    "unique_rated_customers": 2749
+  },
+  "dates": {
+    "first_response_time": {
+      "min": "2023-05-31 21:55:00",
+      "max": "2023-06-02 00:54:00"
+    },
+    "time_to_resolution": {
+      "min": "2023-05-31 21:53:00",
+      "max": "2023-06-02 00:55:00"
+    },
+    "date_of_purchase": {
+      "min": "2020-01-01 00:00:00",
+      "max": "2021-12-30 00:00:00"
+    }
+  },
+  "timing": {
+    "valid_pairs": 2769,
+    "negative_pairs": 1365
+  },
+  "usage_invalid_active_days": 85,
+  "segments": {
+    "product_purchased": {
+      "table": [
+        {
+          "product_purchased": "Bitbucket",
+          "n": 527,
+          "low": 216,
+          "low_rate": 0.4098671726755218,
+          "mean_csat": 2.9449715370018974
+        },
+        {
+          "product_purchased": "Confluence",
+          "n": 563,
+          "low": 219,
+          "low_rate": 0.38898756660746003,
+          "mean_csat": 3.0177619893428065
+        },
+        {
+          "product_purchased": "Jira",
+          "n": 583,
+          "low": 233,
+          "low_rate": 0.3996569468267582,
+          "mean_csat": 2.9622641509433962
+        },
+        {
+          "product_purchased": "Loom",
+          "n": 542,
+          "low": 213,
+          "low_rate": 0.3929889298892989,
+          "mean_csat": 3.0571955719557193
+        },
+        {
+          "product_purchased": "Trello",
+          "n": 554,
+          "low": 221,
+          "low_rate": 0.3989169675090253,
+          "mean_csat": 2.9747292418772564
+        }
+      ],
+      "p": 0.9667602167930022
+    },
+    "ticket_type": {
+      "table": [
+        {
+          "ticket_type": "Billing inquiry",
+          "n": 544,
+          "low": 223,
+          "low_rate": 0.4099264705882353,
+          "mean_csat": 3.0275735294117645
+        },
+        {
+          "ticket_type": "Cancellation request",
+          "n": 516,
+          "low": 198,
+          "low_rate": 0.38372093023255816,
+          "mean_csat": 3.0290697674418605
+        },
+        {
+          "ticket_type": "Product inquiry",
+          "n": 533,
+          "low": 199,
+          "low_rate": 0.37335834896810505,
+          "mean_csat": 3.016885553470919
+        },
+        {
+          "ticket_type": "Refund request",
+          "n": 596,
+          "low": 248,
+          "low_rate": 0.4161073825503356,
+          "mean_csat": 2.934563758389262
+        },
+        {
+          "ticket_type": "Technical issue",
+          "n": 580,
+          "low": 234,
+          "low_rate": 0.40344827586206894,
+          "mean_csat": 2.9586206896551723
+        }
+      ],
+      "p": 0.5577651154180323
+    },
+    "ticket_subject": {
+      "table": [
+        {
+          "ticket_subject": "Account access",
+          "n": 171,
+          "low": 74,
+          "low_rate": 0.4327485380116959,
+          "mean_csat": 2.9415204678362574
+        },
+        {
+          "ticket_subject": "Cancellation request",
+          "n": 148,
+          "low": 55,
+          "low_rate": 0.3716216216216216,
+          "mean_csat": 3.0675675675675675
+        },
+        {
+          "ticket_subject": "Data loss",
+          "n": 147,
+          "low": 59,
+          "low_rate": 0.4013605442176871,
+          "mean_csat": 2.9659863945578233
+        },
+        {
+          "ticket_subject": "Device compatibility issue",
+          "n": 183,
+          "low": 71,
+          "low_rate": 0.3879781420765027,
+          "mean_csat": 3.0
+        },
+        {
+          "ticket_subject": "Display issue",
+          "n": 155,
+          "low": 56,
+          "low_rate": 0.36129032258064514,
+          "mean_csat": 3.07741935483871
+        },
+        {
+          "ticket_subject": "Email delivery problem",
+          "n": 178,
+          "low": 86,
+          "low_rate": 0.48314606741573035,
+          "mean_csat": 2.803370786516854
+        },
+        {
+          "ticket_subject": "Installation support",
+          "n": 158,
+          "low": 53,
+          "low_rate": 0.33544303797468356,
+          "mean_csat": 3.1835443037974684
+        },
+        {
+          "ticket_subject": "Integration",
+          "n": 158,
+          "low": 57,
+          "low_rate": 0.36075949367088606,
+          "mean_csat": 2.962025316455696
+        },
+        {
+          "ticket_subject": "Loading issue",
+          "n": 173,
+          "low": 74,
+          "low_rate": 0.4277456647398844,
+          "mean_csat": 2.953757225433526
+        },
+        {
+          "ticket_subject": "Network problem",
+          "n": 201,
+          "low": 88,
+          "low_rate": 0.43781094527363185,
+          "mean_csat": 2.8805970149253732
+        },
+        {
+          "ticket_subject": "Payment issue",
+          "n": 156,
+          "low": 60,
+          "low_rate": 0.38461538461538464,
+          "mean_csat": 3.0576923076923075
+        },
+        {
+          "ticket_subject": "Product compatibility",
+          "n": 195,
+          "low": 77,
+          "low_rate": 0.39487179487179486,
+          "mean_csat": 2.958974358974359
+        },
+        {
+          "ticket_subject": "Product recommendation",
+          "n": 186,
+          "low": 73,
+          "low_rate": 0.3924731182795699,
+          "mean_csat": 2.967741935483871
+        },
+        {
+          "ticket_subject": "Product setup",
+          "n": 183,
+          "low": 74,
+          "low_rate": 0.40437158469945356,
+          "mean_csat": 2.9836065573770494
+        },
+        {
+          "ticket_subject": "Refund request",
+          "n": 178,
+          "low": 66,
+          "low_rate": 0.3707865168539326,
+          "mean_csat": 3.067415730337079
+        },
+        {
+          "ticket_subject": "Software bug",
+          "n": 199,
+          "low": 79,
+          "low_rate": 0.3969849246231156,
+          "mean_csat": 3.0452261306532664
+        }
+      ],
+      "p": 0.5386613186298284
+    },
+    "ticket_priority": {
+      "table": [
+        {
+          "ticket_priority": "Critical",
+          "n": 726,
+          "low": 298,
+          "low_rate": 0.41046831955922863,
+          "mean_csat": 2.958677685950413
+        },
+        {
+          "ticket_priority": "High",
+          "n": 705,
+          "low": 289,
+          "low_rate": 0.4099290780141844,
+          "mean_csat": 2.9829787234042553
+        },
+        {
+          "ticket_priority": "Low",
+          "n": 644,
+          "low": 246,
+          "low_rate": 0.38198757763975155,
+          "mean_csat": 3.0527950310559007
+        },
+        {
+          "ticket_priority": "Medium",
+          "n": 694,
+          "low": 269,
+          "low_rate": 0.38760806916426516,
+          "mean_csat": 2.9769452449567724
+        }
+      ],
+      "p": 0.5951709750411618
+    },
+    "ticket_channel": {
+      "table": [
+        {
+          "ticket_channel": "Chat",
+          "n": 674,
+          "low": 245,
+          "low_rate": 0.36350148367952523,
+          "mean_csat": 3.083086053412463
+        },
+        {
+          "ticket_channel": "Email",
+          "n": 720,
+          "low": 303,
+          "low_rate": 0.42083333333333334,
+          "mean_csat": 2.963888888888889
+        },
+        {
+          "ticket_channel": "Phone",
+          "n": 691,
+          "low": 285,
+          "low_rate": 0.41244573082489144,
+          "mean_csat": 2.952243125904486
+        },
+        {
+          "ticket_channel": "Social media",
+          "n": 684,
+          "low": 269,
+          "low_rate": 0.3932748538011696,
+          "mean_csat": 2.969298245614035
+        }
+      ],
+      "p": 0.1339102763545285
+    },
+    "plan_type": {
+      "table": [
+        {
+          "plan_type": "Enterprise",
+          "n": 393,
+          "low": 151,
+          "low_rate": 0.3842239185750636,
+          "mean_csat": 3.040712468193384
+        },
+        {
+          "plan_type": "Free",
+          "n": 498,
+          "low": 194,
+          "low_rate": 0.3895582329317269,
+          "mean_csat": 3.0160642570281126
+        },
+        {
+          "plan_type": "Premium",
+          "n": 771,
+          "low": 297,
+          "low_rate": 0.3852140077821012,
+          "mean_csat": 2.9948119325551232
+        },
+        {
+          "plan_type": "Standard",
+          "n": 1107,
+          "low": 460,
+          "low_rate": 0.41553748870822044,
+          "mean_csat": 2.960252935862692
+        }
+      ],
+      "p": 0.4924166137543252
+    },
+    "industry": {
+      "table": [
+        {
+          "industry": "Education",
+          "n": 287,
+          "low": 111,
+          "low_rate": 0.3867595818815331,
+          "mean_csat": 2.989547038327526
+        },
+        {
+          "industry": "Financial Services",
+          "n": 303,
+          "low": 123,
+          "low_rate": 0.40594059405940597,
+          "mean_csat": 2.924092409240924
+        },
+        {
+          "industry": "Government & Public Sector",
+          "n": 150,
+          "low": 53,
+          "low_rate": 0.35333333333333333,
+          "mean_csat": 3.14
+        },
+        {
+          "industry": "Healthcare",
+          "n": 279,
+          "low": 96,
+          "low_rate": 0.34408602150537637,
+          "mean_csat": 3.161290322580645
+        },
+        {
+          "industry": "Manufacturing",
+          "n": 200,
+          "low": 86,
+          "low_rate": 0.43,
+          "mean_csat": 2.925
+        },
+        {
+          "industry": "Media & Communications",
+          "n": 199,
+          "low": 74,
+          "low_rate": 0.37185929648241206,
+          "mean_csat": 3.090452261306533
+        },
+        {
+          "industry": "Other",
+          "n": 182,
+          "low": 72,
+          "low_rate": 0.3956043956043956,
+          "mean_csat": 2.9450549450549453
+        },
+        {
+          "industry": "Professional Services",
+          "n": 402,
+          "low": 168,
+          "low_rate": 0.417910447761194,
+          "mean_csat": 2.945273631840796
+        },
+        {
+          "industry": "Retail",
+          "n": 253,
+          "low": 95,
+          "low_rate": 0.37549407114624506,
+          "mean_csat": 3.047430830039526
+        },
+        {
+          "industry": "Technology",
+          "n": 514,
+          "low": 224,
+          "low_rate": 0.4357976653696498,
+          "mean_csat": 2.9085603112840466
+        }
+      ],
+      "p": 0.3073266208426463
+    },
+    "region": {
+      "table": [
+        {
+          "region": "Asia-Pacific",
+          "n": 520,
+          "low": 218,
+          "low_rate": 0.41923076923076924,
+          "mean_csat": 2.9346153846153844
+        },
+        {
+          "region": "Australia & New Zealand",
+          "n": 760,
+          "low": 307,
+          "low_rate": 0.4039473684210526,
+          "mean_csat": 2.956578947368421
+        },
+        {
+          "region": "Europe",
+          "n": 593,
+          "low": 239,
+          "low_rate": 0.403035413153457,
+          "mean_csat": 2.9915682967959527
+        },
+        {
+          "region": "North America",
+          "n": 702,
+          "low": 263,
+          "low_rate": 0.37464387464387466,
+          "mean_csat": 3.072649572649573
+        },
+        {
+          "region": "Other",
+          "n": 194,
+          "low": 75,
+          "low_rate": 0.3865979381443299,
+          "mean_csat": 2.984536082474227
+        }
+      ],
+      "p": 0.5820628192264594
+    },
+    "company_size": {
+      "table": [
+        {
+          "company_size": "1-10",
+          "n": 282,
+          "low": 109,
+          "low_rate": 0.38652482269503546,
+          "mean_csat": 3.021276595744681
+        },
+        {
+          "company_size": "1000+",
+          "n": 298,
+          "low": 122,
+          "low_rate": 0.40939597315436244,
+          "mean_csat": 2.922818791946309
+        },
+        {
+          "company_size": "11-50",
+          "n": 580,
+          "low": 215,
+          "low_rate": 0.3706896551724138,
+          "mean_csat": 3.0551724137931036
+        },
+        {
+          "company_size": "201-500",
+          "n": 526,
+          "low": 206,
+          "low_rate": 0.3916349809885932,
+          "mean_csat": 3.041825095057034
+        },
+        {
+          "company_size": "501-1000",
+          "n": 301,
+          "low": 114,
+          "low_rate": 0.3787375415282392,
+          "mean_csat": 3.043189368770764
+        },
+        {
+          "company_size": "51-200",
+          "n": 782,
+          "low": 336,
+          "low_rate": 0.4296675191815857,
+          "mean_csat": 2.9053708439897696
+        }
+      ],
+      "p": 0.31108657555030567
+    },
+    "decline20": {
+      "table": [
+        {
+          "decline20": false,
+          "n": 2332,
+          "low": 883,
+          "low_rate": 0.3786449399656947,
+          "mean_csat": 3.0488850771869638
+        },
+        {
+          "decline20": true,
+          "n": 437,
+          "low": 219,
+          "low_rate": 0.5011441647597255,
+          "mean_csat": 2.6842105263157894
+        }
+      ],
+      "p": 2.055816552588881e-06
+    },
+    "decline30": {
+      "table": [
+        {
+          "decline30": false,
+          "n": 2558,
+          "low": 985,
+          "low_rate": 0.38506645817044566,
+          "mean_csat": 3.0238467552775607
+        },
+        {
+          "decline30": true,
+          "n": 211,
+          "low": 117,
+          "low_rate": 0.5545023696682464,
+          "mean_csat": 2.5971563981042656
+        }
+      ],
+      "p": 1.9393262877405236e-06
+    }
+  },
+  "usage_by_rating": [
+    {
+      "customer_satisfaction_rating": 1.0,
+      "sessions_baseline": 17.445750452079565,
+      "sessions_recent": 16.365280289330922,
+      "sessions_change": -0.03204639976081261,
+      "active_days_recent": 8.236889692585896,
+      "product_actions_recent": 92.86889692585895,
+      "collaborators_recent": 11.000904159132007,
+      "integrations_used_recent": 3.116636528028933
+    },
+    {
+      "customer_satisfaction_rating": 2.0,
+      "sessions_baseline": 17.449908925318763,
+      "sessions_recent": 16.68488160291439,
+      "sessions_change": -0.02025577787506294,
+      "active_days_recent": 8.290528233151184,
+      "product_actions_recent": 95.08834244080145,
+      "collaborators_recent": 10.950819672131148,
+      "integrations_used_recent": 3.1256830601092895
+    },
+    {
+      "customer_satisfaction_rating": 3.0,
+      "sessions_baseline": 17.89913793103448,
+      "sessions_recent": 17.969827586206897,
+      "sessions_change": 0.04307079835232138,
+      "active_days_recent": 8.982758620689655,
+      "product_actions_recent": 103.97241379310344,
+      "collaborators_recent": 11.222413793103449,
+      "integrations_used_recent": 3.220689655172414
+    },
+    {
+      "customer_satisfaction_rating": 4.0,
+      "sessions_baseline": 17.888581952117864,
+      "sessions_recent": 17.971454880294658,
+      "sessions_change": 0.045365431762960345,
+      "active_days_recent": 8.996316758747698,
+      "product_actions_recent": 102.60681399631676,
+      "collaborators_recent": 11.156537753222835,
+      "integrations_used_recent": 3.138121546961326
+    },
+    {
+      "customer_satisfaction_rating": 5.0,
+      "sessions_baseline": 16.837316176470587,
+      "sessions_recent": 17.4375,
+      "sessions_change": 0.09170633630398647,
+      "active_days_recent": 8.688419117647058,
+      "product_actions_recent": 98.15808823529412,
+      "collaborators_recent": 10.918198529411764,
+      "integrations_used_recent": 3.172794117647059
+    }
+  ],
+  "operational": {
+    "unrated": 5700,
+    "unrated_decline20": 855,
+    "unrated_decline30": 413,
+    "unrated_decline20_customers": 853
+  },
+  "split": {
+    "train": 2077,
+    "test": 692,
+    "test_positive": 274,
+    "test_prevalence": 0.3959537572254335,
+    "overlapping_customers": 0
+  },
+  "models": {
+    "ticket_context": {
+      "auc": 0.514511228303007,
+      "auc_ci": [
+        0.47062553063789797,
+        0.5569085081056622
+      ],
+      "ap": 0.4155762066644684,
+      "brier": 0.2414885571044553,
+      "top20_n": 139,
+      "top20_low": 63,
+      "top20_precision": 0.45323741007194246,
+      "top20_recall": 0.22992700729927007
+    },
+    "usage": {
+      "auc": 0.5975360597911501,
+      "auc_ci": [
+        0.554311507905609,
+        0.6393926102004347
+      ],
+      "ap": 0.4774133047081067,
+      "brier": 0.2326249406412052,
+      "top20_n": 139,
+      "top20_low": 71,
+      "top20_precision": 0.5107913669064749,
+      "top20_recall": 0.2591240875912409
+    },
+    "combined": {
+      "auc": 0.578816400656585,
+      "auc_ci": [
+        0.5330193307009197,
+        0.6198077867567111
+      ],
+      "ap": 0.45804169725885174,
+      "brier": 0.23625784013338358,
+      "top20_n": 139,
+      "top20_low": 61,
+      "top20_precision": 0.43884892086330934,
+      "top20_recall": 0.22262773722627738
+    },
+    "combined_rf": {
+      "auc": 0.5761097335242552,
+      "auc_ci": [
+        0.5291962047924883,
+        0.6191193820774348
+      ],
+      "ap": 0.47355565523906357,
+      "brier": 0.23499146526468084,
+      "top20_n": 139,
+      "top20_low": 67,
+      "top20_precision": 0.48201438848920863,
+      "top20_recall": 0.24452554744525548
+    }
+  },
+  "coefficients": [
+    [
+      "num__sessions_baseline",
+      0.8005117580103237
+    ],
+    [
+      "num__sessions_recent",
+      -0.6489721507937086
+    ],
+    [
+      "num__active_days_recent",
+      -0.3240654911148888
+    ],
+    [
+      "cat__ticket_subject_Email delivery problem",
+      0.30904295224688894
+    ],
+    [
+      "cat__ticket_subject_Data loss",
+      -0.26170089738067187
+    ],
+    [
+      "cat__industry_Healthcare",
+      -0.2548676212964468
+    ],
+    [
+      "cat__ticket_subject_Installation support",
+      -0.24289566896972623
+    ],
+    [
+      "cat__industry_Manufacturing",
+      0.22350191812573497
+    ],
+    [
+      "cat__ticket_subject_Loading issue",
+      0.21171399150449513
+    ],
+    [
+      "cat__industry_Technology",
+      0.206137454172711
+    ],
+    [
+      "num__active_days_baseline",
+      0.17256925042218477
+    ],
+    [
+      "cat__ticket_subject_Product recommendation",
+      -0.17196629147997378
+    ],
+    [
+      "num__product_actions_recent",
+      -0.17114005425018408
+    ],
+    [
+      "cat__ticket_subject_Account access",
+      0.1705505490056736
+    ],
+    [
+      "num__sessions_change",
+      -0.1702230675128779
+    ],
+    [
+      "cat__ticket_subject_Integration",
+      -0.16700074524017686
+    ],
+    [
+      "cat__ticket_channel_Chat",
+      -0.16571491175391825
+    ],
+    [
+      "cat__ticket_type_Cancellation request",
+      -0.16449134126396353
+    ],
+    [
+      "cat__ticket_priority_Low",
+      -0.14791417265527304
+    ],
+    [
+      "cat__industry_Education",
+      -0.1477444554017046
+    ]
+  ],
+  "baselines": {
+    "usage_decline": {
+      "auc": 0.6015916948974959,
+      "top20_n": 139,
+      "top20_low": 73,
+      "top20_precision": 0.5251798561151079
+    },
+    "low_recent_sessions": {
+      "auc": 0.5419096846296232,
+      "top20_n": 139,
+      "top20_low": 64,
+      "top20_precision": 0.460431654676259
+    },
+    "priority": {
+      "auc": 0.5191431215730102,
+      "top20_n": 139,
+      "top20_low": 59,
+      "top20_precision": 0.4244604316546763
+    }
+  },
+  "focal": {
+    "False": {
+      "n": 2332,
+      "low": 883,
+      "rate": 0.3786449399656947,
+      "ci": [
+        0.3591731401034973,
+        0.39851589402908527
+      ]
+    },
+    "True": {
+      "n": 437,
+      "low": 219,
+      "rate": 0.5011441647597255,
+      "ci": [
+        0.45446011604808545,
+        0.5478082731426117
+      ]
+    }
+  },
+  "deduplicated_focal": [
+    {
+      "decline20": false,
+      "size": 2315,
+      "mean": 0.37840172786177106
+    },
+    {
+      "decline20": true,
+      "size": 434,
+      "mean": 0.5
+    }
+  ],
+  "decline_by_plan": {
+    "Enterprise": 87,
+    "Free": 239,
+    "Premium": 207,
+    "Standard": 322
+  }
+}
