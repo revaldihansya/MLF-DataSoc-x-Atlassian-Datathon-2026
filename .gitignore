@@ -1,3 +1,21 @@
-*.csv
-datathon_analysis/
+# Local inputs and generated results (never commit these).
+/data/
+/outputs/
+/output/
+
+# Python caches, environments and test artefacts.
+__pycache__/
+*.py[cod]
+.venv/
 venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local configuration and operating-system files.
+.env
+.env.*
+.DS_Store
+Thumbs.db
